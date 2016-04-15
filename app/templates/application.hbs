@@ -1,15 +1,18 @@
 <div class="top">
-  {{!-- <div class="top-nav">
-    <ul class="top-nav_ul">
-      <li class="top-nav_li">DNH</li>
-      <li class="top-nav_li">DNH</li>
-      <li class="top-nav_li">DNH</li>
-    </ul>
-  </div> --}}
   <div class="top-cover">
-    <h2 class="top-h2" id="title">Daves</h2>
-    <h2 class="top-h2" id="sub-title">Not</h2>
-    <h2 class="top-h2" id="sub-sub-title">Here</h2>
+    {{#link-to "index"}}
+      <h2 class="top-h2 top-h2_title">David</h2>
+      <h2 class="top-h2 top-h2_title">Cawton</h2>
+      <h2 class="top-h2 top-h2_title"id="reporter">Reporer</h2>
+    {{/link-to}}
+    <hr class="line"/>
+    <div class="middle-cover">
+      <p class="top-p top-p_icon" id="sub-sub-title">
+        {{#link-to "coffee"}}<i class="fa fa-coffee" aria-hidden="true"></i>{{/link-to}}
+        {{#link-to "social"}}<i class="fa fa-hashtag" aria-hidden="true"></i>{{/link-to}}
+        {{#link-to "work"}}<i class="fa fa-black-tie" aria-hidden="true"></i>{{/link-to}}
+      </p>
+  </div>
   </div>
 </div>
 
