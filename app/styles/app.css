@@ -6,13 +6,24 @@ body {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 a h2{
   text-decoration: none;
   color: #000;
 }
 
+a:visited {
+  color: #000;
+}
 
+a i, a i:visited {
+  color: #9F792C;
+}
+
+a i:active {
+  color: #000;
+}
 
 .top {
   position: relative;
