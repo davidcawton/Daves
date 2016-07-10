@@ -21,9 +21,6 @@ a i, a i:visited {
   color: #9F792C;
 }
 
-a i:active {
-  color: #000;
-}
 
 .top {
   position: relative;
@@ -71,7 +68,7 @@ a i:active {
 
 
 .top-h2 {
-  font-size: 4em;
+  font-size: 3em;
   padding: 0;
   margin: 0;
   font-family: 'Permanent Marker';
@@ -79,6 +76,13 @@ a i:active {
   padding-right: 200px;
   text-align: center;
 }
+
+.top-h2_subtitle {
+  font-size: 1em;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 
 .top-h2_down {
   font-size: 3em;
