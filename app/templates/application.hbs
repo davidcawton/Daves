@@ -1,25 +1,22 @@
 <div class="top">
   <div class="top-cover">
-    {{#link-to "index"}}
-      <h2 class="top-h2 top-h2_title">David</h2>
-      <h2 class="top-h2 top-h2_title">Cawton</h2>
-      <h2 class="top-h2 top-h2_subtitle"id="reporter">Reporter</h2>
-      <h2 class="top-h2 top-h2_subtitle"id="reporter">Media Professional</h2>
-    {{/link-to}}
-    <hr class="line"/>
-    <div class="middle-cover">
+    <h2 class="subtitle">Web Developer</h2>
+    <div class="nav">
       <p class="top-p top-p_icon" id="sub-sub-title">
+        {{#link-to "work"}}<i class="fa fa-black-tie" aria-hidden="true"></i>{{/link-to}}
         {{#link-to "coffee"}}<i class="fa fa-coffee" aria-hidden="true"></i>{{/link-to}}
         {{#link-to "social"}}<i class="fa fa-hashtag" aria-hidden="true"></i>{{/link-to}}
-        {{#link-to "work"}}<i class="fa fa-black-tie" aria-hidden="true"></i>{{/link-to}}
       </p>
-  </div>
-  <div class="intro-graph">
-    <p class="intro-graph_text">David Cawton is a reporter and media professional based in Austin, Texas. In the Lone Star State's Capital, David covers state and national politics. </p>
-  </div>
+    </div>
+    <div class="top-img">
+      {{outlet}}
+
+
+    </div>
+    <div class="top-title">
+      {{#link-to "index"}}
+        <h1 class="title">David Cawton</h1>
+      {{/link-to}}
+    </div>
   </div>
 </div>
-
-
-
-{{outlet}}

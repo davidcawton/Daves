@@ -1,14 +1,16 @@
 body {
-  background: url("../david.jpg") fixed center no-repeat;
   padding:0;
   margin: 0;
+  font-family: 'Arvo', serif;
+  background: #333;
+
 }
 
 a {
   text-decoration: none;
   color: #000;
 }
-a h2{
+a h2 h1{
   text-decoration: none;
   color: #000;
 }
@@ -18,7 +20,7 @@ a:visited {
 }
 
 a i, a i:visited {
-  color: #9F792C;
+  color: rgb(159, 121, 44);
 }
 
 
@@ -28,7 +30,7 @@ a i, a i:visited {
   flex-direction: column;
   padding: 0;
   margin: 0;
-  align-items: flex-start
+  align-items: flex-start;
 
 }
 
@@ -46,78 +48,69 @@ a i, a i:visited {
 .top-cover {
   display: flex;
   flex-direction: column;
-  align-self: center;
-  width: 660px;
+  position: relative;
+  width: 100%;
+  height: 900px;
   justify-content: center;
-  padding-top: 300px;
-  margin-left:100px;
-  margin-top: 50px;
-  margin-bottom: 0;
-  margin-right: 100px;
-  background: linear-gradient(to top, rgba(0, 103, 120, 0.64), rgba(0, 103, 120, 0));
+  background: #333
 }
 
-.top-cover_tab {
-  padding-top: 0;
-  padding-bottom: 250px;
-  border-bottom: 0;
-  margin-top: 0;
-  background: linear-gradient(to bottom, rgba(0, 103, 120, 0.64), rgba(0, 103, 120, 0));
+.top-title {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+  margin-top: 3em;
+  font-family: 'Homemade Apple', cursive;
+
+}
+
+.title {
+  font-size: 6em;
+  color: #eee;
+  margin: 1em 1em 0;
+  padding: 400px 40px 0;
+  border-bottom: 1px #9F792C solid;
+
 }
 
 
-
-.top-h2 {
-  font-size: 3em;
+.subtitle {
+  position: absolute;
+  top: 3em;
+  right: 3em;
+  font-size: 1em;
   padding: 0;
   margin: 0;
-  font-family: 'Permanent Marker';
-  padding-left: 200px;
-  padding-right: 200px;
-  text-align: center;
+  color: #9F792C;
+  text-shadow: .25px .25px .5px #000;
+  font-style: italic;
+  font-family: 'Homemade Apple', cursive;
 }
 
-.top-h2_subtitle {
-  font-size: 1em;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-
-.top-h2_down {
-  font-size: 3em;
-}
-
-.line {
-  width: 200px;
-  margin: auto;
-  background: #000;
-}
-
-#sub-sub-title {
-  padding-bottom: 50px;
-  color: rgba(#006778, 0.64);
+.nav {
+  position: absolute;
+  left: 3em;
+  top: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .top-p {
   font-size: 1em;
   color: #9F792C;
-  text-align: center;
+  text-align: left;
   padding: 0;
   margin: 0;
-  font-family: 'Permanent Marker';
-  padding-left: 200px;
-  padding-right: 200px;
+  font-family: 'Arvo', serif;
 }
  .top-p_icon {
    font-size: 2.5em;
- }
-
- .middle-cover {
-   display: flex;
-   flex-direction: column;
-   align-self: center;
-   justify-content: center;
  }
 
  .fa {
@@ -129,6 +122,7 @@ a i, a i:visited {
    color: #000;
  }
 
+
 a:visited {
   color: #9F792C;
 }
@@ -139,4 +133,13 @@ a:visited {
 }
 
 
-/*Grab Coffee*/
+/*WORK*/
+
+.work {
+  width: 80%;
+  height: 550px;
+  margin: auto;
+  margin-bottom: 5em;
+  background: #333;
+  border: 1px #9F792C solid;
+}
