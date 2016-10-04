@@ -28,8 +28,8 @@ a i, a i:visited {
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 0;
-  margin: 0;
+  padding:0;
+  margin-top: 8em;
   align-items: flex-start;
 
 }
@@ -56,15 +56,10 @@ a i, a i:visited {
 }
 
 .top-title {
-  position: absolute;
-  bottom: 0;
   display: flex;
   justify-content: center;
   text-align: center;
   width: 100%;
-  height: auto;
-  margin-bottom: 1em;
-  margin-top: 3em;
   font-family: 'Homemade Apple', cursive;
 
 }
@@ -72,8 +67,7 @@ a i, a i:visited {
 .title {
   font-size: 6em;
   color: #eee;
-  margin: 1em 1em 0;
-  padding: 400px 40px 0;
+  margin: auto;
   border-bottom: 1px #9F792C solid;
 
 }
@@ -136,10 +130,78 @@ a:visited {
 /*WORK*/
 
 .work {
+  display: flex;
+  flex-direction: column;
+  position: relative;
   width: 80%;
-  height: 550px;
+  min-height: 550px;
   margin: auto;
-  margin-bottom: 5em;
   background: #333;
-  border: 1px #9F792C solid;
+  border: 3px #9F792C solid;
+}
+
+.work-title {
+  text-align: center;
+  color: #9F792C;
+  font-size: 6em;
+  border-bottom: 1px #9F792C solid;
+  margin: 0;
+  padding: .3em 0;
+}
+
+.work-graph {
+  width: 60%;
+  margin: auto;
+  padding-top: 1em;
+  font-size: 1.5em;
+  text-align: justify;
+  color: #fff;
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+  margin-top: 2em;
+  border: 5px #9F792C solid;
+  padding-left: 0;
+  background: #9F792C;
+}
+
+#last-item {
+  margin-bottom: 2em;
+}
+
+.portfolio-item_li {
+  list-style: none;
+  color: #333;
+  margin: 0;
+}
+
+.portfolio-img {
+  width: 100%;
+}
+
+.portfolio-item_title {
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.portfolio-item_graph {
+  width: 90%;
+  margin: auto;
+  margin-bottom: .5em;
+  padding: .5em;
+  text-align: justify;
 }
