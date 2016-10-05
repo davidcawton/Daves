@@ -58,8 +58,10 @@ a i, a i:visited {
 .top-title {
   display: flex;
   justify-content: center;
+  align-items: flex-end;
   text-align: center;
   width: 100%;
+  height: 400px;
   font-family: 'Homemade Apple', cursive;
 
 }
@@ -144,13 +146,13 @@ a:visited {
   text-align: center;
   color: #9F792C;
   font-size: 6em;
-  border-bottom: 1px #9F792C solid;
+  border-bottom: 3px #9F792C solid;
   margin: 0;
   padding: .3em 0;
 }
 
 .work-graph {
-  width: 60%;
+  width: 70%;
   margin: auto;
   padding-top: 1em;
   font-size: 1.5em;
@@ -160,21 +162,23 @@ a:visited {
 
 .portfolio-grid {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  background: #333;
+
 }
 
 .portfolio-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
-  width: 60%;
-  margin-top: 2em;
-  border: 5px #9F792C solid;
+  position: relative;
+  width: 200px;
+  height: 200px;
   padding-left: 0;
-  background: #9F792C;
+  overflow: hidden;
+  border: 4px #9F792C solid;
 }
 
 #last-item {
@@ -183,25 +187,35 @@ a:visited {
 
 .portfolio-item_li {
   list-style: none;
-  color: #333;
   margin: 0;
+
 }
 
-.portfolio-img {
-  width: 100%;
+.port-cover {
+width: 200px;
+height: 200px;
+margin: auto;
+opacity:  .7;
+border: 1px #006778 solid;
+background: #006778;
 }
+
 
 .portfolio-item_title {
+  position: absolute;
+  top: 40%;
+  width: 100%;
   margin: 0;
   text-align: center;
   font-size: 2em;
   font-weight: bolder;
+  color: #333;
 }
 
-.portfolio-item_graph {
-  width: 90%;
-  margin: auto;
-  margin-bottom: .5em;
-  padding: .5em;
-  text-align: justify;
+.portfolio-item:hover .port-cover {
+  opacity: 1;
+}
+
+.portfolio-item:hover .portfolio-item_title {
+  color:  #9F792C;
 }
