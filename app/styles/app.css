@@ -219,3 +219,31 @@ background: #006778;
 .portfolio-item:hover .portfolio-item_title {
   color:  #9F792C;
 }
+
+
+/*CONTACT*/
+
+.contact-grid {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+}
+
+.contact-graph {
+  width: 70%;
+  color: #fff;
+  margin: auto;
+  text-align: justify;
+}
+
+.contact-icon {
+  font-size: 3em;
+    color: #9F792C;
+
+}
+
+.contact-icon:hover {
+  color: #006778;
+
+}
