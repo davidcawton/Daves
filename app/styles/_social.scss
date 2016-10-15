@@ -1,0 +1,34 @@
+
+/*BLOG*/
+
+.blog-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  min-height: 300px;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border: 3px $brand-secondary solid;
+}
+
+.blog-post__title {
+  color: #fff;
+  font-size: 3em;
+  margin-bottom: 1em;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.blog-post__graph {
+  width: 90%;
+  margin: auto;
+  margin: 1em;
+  color: $brand-bright-white;
+}
+
+.blog-post__img {
+  width: 90%;
+  margin: auto;
+  height: 400px;
+}

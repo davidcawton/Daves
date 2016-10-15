@@ -1,0 +1,53 @@
+//BASE STYLES//
+//
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding:0;
+  margin: 0;
+  font-family: 'Arvo', serif;
+  background: $brand-grey;
+
+}
+
+a {
+  text-decoration: none;
+  color: $brand-black;
+}
+a h2 h1{
+  text-decoration: none;
+  color: $brand-black;
+}
+
+
+a:visited {
+  color: $brand-gold;
+}
+
+a i, a i:visited {
+  color: $brand-gold;
+}
+
+
+.fa {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.fa:hover {
+  color: $brand-black;
+}
+
+
+.fa:active .top-cover_tab {
+  opacity: 1;
+  transition: 1000ms;
+}
