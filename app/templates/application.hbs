@@ -1,19 +1,41 @@
 <div class="real-top">
-  <a href="/"><h2 class="nav-title">David Cawton</h2></a>
+  <a href="/"><h2 class="top-title">David Cawton</h2></a>
+
   <div class="top-nav">
-    <p class="top-nav__p top-nav__p-icon" id="nav-sub__title">
-      {{#link-to "work"}}<i class="fa fa-black-tie" aria-hidden="true"></i>{{/link-to}}
-      {{#link-to "coffee"}}<i class="fa fa-coffee" aria-hidden="true"></i>{{/link-to}}
-      {{#link-to "social"}}<i class="fa fa-hashtag" aria-hidden="true"></i>{{/link-to}}
-    </p>
+    {{#link-to "index"}}
+      <ul class="top-nav__item">
+        <li class="top-nav__li-icon"><i class="fa fa-home" aria-hidden="true"></i></li>
+        <li class="top-nav__li-title">Home</li>
+      </ul>
+    {{/link-to}}
+    {{#link-to "work"}}
+      <ul class="top-nav__item">
+        <li class="top-nav__li-icon"><i class="fa fa-black-tie" aria-hidden="true"></i></li>
+        <li class="top-nav__li-title">Work</li>
+      </ul>
+    {{/link-to}}
+    {{#link-to "social"}}
+      <ul class="top-nav__item">
+        <li class="top-nav__li-icon"><i class="fa fa-hashtag" aria-hidden="true"></i></li>
+        <li class="top-nav__li-title">Blog</li>
+      </ul>
+    {{/link-to}}
+    {{#link-to "coffee"}}
+      <ul class="top-nav__item">
+        <li class="top-nav__li-icon"><i class="fa fa-coffee" aria-hidden="true"></i></li>
+        <li class="top-nav__li-title">Connect</li>
+      </ul>
+    {{/link-to}}
+
   </div>
 
-<div class="primary">
+  <div class="primary">
     {{outlet}}
-    <div class="primary-title">
+    <div class="primary-title__section">
       {{#link-to "index"}}
         <h1 class="title">David Cawton</h1>
       {{/link-to}}
+      <img class="title-img" src="david.jpg" alt="David Cawton">
     </div>
   </div>
   <div class="primary-contact__grid">
