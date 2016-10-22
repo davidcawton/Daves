@@ -30,6 +30,16 @@
   color: $brand-bright-white;
 }
 
+.contact {
+  list-style: none;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+.dev-link {
+  padding: 0.5rem;
+}
+
 .work-section {
   margin-top: 2rem;
   display: flex;
@@ -63,7 +73,7 @@
 .dev-grid__card {
   flex: 1;
   flex-wrap: wrap;
-  max-width: 300px;
+  max-width: 400px;
   padding: 0;
   list-style: none;
   margin: 0.5rem;
@@ -72,7 +82,7 @@
 }
 
 .dev-grid__card-img {
-  width: 100%;
+  width: 394px;
   height: 250px;
 }
 
@@ -84,7 +94,6 @@
   border-bottom: 3px $brand-gold solid;
 
 }
-
 
 .dev-grid__card-graph {
   color: $brand-white;
