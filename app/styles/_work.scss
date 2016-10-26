@@ -30,14 +30,16 @@
   color: $brand-bright-white;
 }
 
-.contact {
-  list-style: none;
-  padding: 0.5rem;
-  margin: 1rem;
+.portfolio-icons {
+  display: flex;
+  justify-content: center;
 }
 
-.dev-link {
-  padding: 0.5rem;
+
+.portfolio-icon {
+  font-size: 4rem;
+  text-align: center;
+  padding: 10px;
 }
 
 .work-section {
@@ -63,14 +65,15 @@
   margin-top: 0.5rem;
 }
 
-.work-section__dev-grid {
+.work-section__grid {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 1rem;
   text-align: center;
 }
 
-.dev-grid__card {
+.work-section-grid__card {
   flex: 1;
   flex-wrap: wrap;
   max-width: 400px;
@@ -81,12 +84,12 @@
   background: lighten($brand-black, 10%);
 }
 
-.dev-grid__card-img {
-  width: 394px;
-  height: 250px;
+.work-section-grid__card-img {
+  width: 90%;
+  height: 300px;
 }
 
-.dev-grid__card-title {
+.work-section-grid__card-title {
   margin: 0.5rem 0;
   padding: 0.5rem;
   font-size: 1.5rem;
@@ -95,6 +98,6 @@
 
 }
 
-.dev-grid__card-graph {
+.work-section-grid__card-graph {
   color: $brand-white;
 }
