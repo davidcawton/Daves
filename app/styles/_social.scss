@@ -15,46 +15,63 @@
   padding-top: 0.2rem;
 }
 
-.resume-list {
+.resume {
   padding-left: 0.5rem;
+  padding-top: 0.5rem;
   margin-top: 1rem;
 }
 
-.resume-title {
+.table-title {
+  font-size: 1.5rem;
   color: $brand-secondary;
   font-weight: bold;
-  text-decoration: underline;
+  width: calc(100%, -0.5rem);
+  margin-left: 0.5rem;
+  border-bottom: 3px $brand-secondary solid;
 }
 
-.resume-li {
-  display: flex;
-  justify-content: space-between;
-  margin:0 1rem 0.5rem;
-  list-style: none;
-  padding-left: 1rem;
+.resume-head {
+  text-align: left;
 }
 
-.resume-top__li {
-  text-decoration: underline;
+.resume-head-row {
+  width: 100%;
 }
 
-.resume-position,
-.resume-company,
-.resume-year {
+.resume-row__li {
   font-weight: bold;
+  font-size: 1.1rem;
 }
 
-.resume-position {
+.resume-row__title {
+  width: 20%;
+}
+
+.resume-row__year {
+  width: 10%;
   color: $brand-gold;
 }
 
-.resume-year {
+.resume-row__company {
   color: $brand-secondary;
 }
 
-.resume-references {
-  padding-top: 0.5rem;
-  font-weight: bolder;
+.resume-body {
+  text-align: left;
+  padding-top: 1rem;
+}
+
+.assets-title {
+  margin-bottom: 0;
+}
+
+.assets-graph {
+  font-size: 1.2rem;
+  padding: 0 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.references {
+  text-align: center;
   font-style: italic;
-  color: $brand-gold;
 }
