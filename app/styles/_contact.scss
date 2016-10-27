@@ -1,15 +1,23 @@
 // CONTACT //
 
 .contact-graph {
-  width: 70%;
-  color: #fff;
-  margin: auto;
-  text-align: justify;
+  width: 100%;
+  font-size: 2rem;
+  color: #000;
+  text-align: center;
+  margin: 1rem;
+  padding-bottom: 1rem;
+}
+
+.primary-contact__grid {
+  display: flex;
+  justify-content: center;
 }
 
 .contact-icon {
   font-size: 3em;
-    color: $brand-gold;
+  color: $brand-gold;
+  padding: 0 1rem;
 
 }
 
