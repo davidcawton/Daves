@@ -8,11 +8,11 @@
   width: 80%;
   min-height: 550px;
   margin: auto;
-  background: $brand-grey;
+  background: $brand-primary;
   border: 3px $brand-gold solid;
 }
 
-.work-title {
+.page-titles {
   text-align: center;
   color: $brand-gold;
   font-size: 6em;
@@ -83,7 +83,7 @@
   padding: 0.5rem;
   margin: 0.5rem;
   list-style: none;
-  border: 1px $brand-white solid;
+  border: 1px $brand-grey solid;
   background: lighten($brand-black, 10%);
 
   &:hover {
@@ -114,5 +114,5 @@
 }
 
 .work-section-grid__card-graph {
-  color: $brand-white;
+  color: $brand-grey;
 }

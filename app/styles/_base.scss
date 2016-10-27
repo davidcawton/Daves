@@ -14,7 +14,7 @@ body {
   padding:0;
   margin: 0;
   font-family: 'Arvo', serif;
-  background: $brand-grey;
+  background: $brand-primary;
 
 }
 
@@ -36,7 +36,7 @@ a h2 h1{
 }
 
 .fa:hover {
-  color: $brand-white;
+  color: $brand-grey;
 }
 
 .fa:active .top-cover_tab {

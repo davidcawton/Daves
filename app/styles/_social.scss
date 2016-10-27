@@ -1,34 +1,60 @@
+.resume-heading {
+  text-align: center;
+  color: $brand-gold;
+  font-size: 5em;
+  border-bottom: 3px $brand-gold solid;
+  margin: 0;
+}
 
-/*BLOG*/
 
-.blog-post {
+.sub-title {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  color: $brand-grey;
+  padding-top: 0.2rem;
+}
+
+.resume-list {
+  padding-left: 0.5rem;
+  margin-top: 1rem;
+}
+
+.resume-title {
+  color: $brand-secondary;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.resume-li {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 70%;
-  min-height: 300px;
-  margin: auto;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  border: 3px $brand-secondary solid;
+  justify-content: space-between;
+  margin:0 1rem 0.5rem;
+  list-style: none;
+  padding-left: 1rem;
 }
 
-.blog-post__title {
-  color: #fff;
-  font-size: 3em;
-  margin-bottom: 1em;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+.resume-top__li {
+  text-decoration: underline;
 }
 
-.blog-post__graph {
-  width: 90%;
-  margin: auto;
-  margin: 1em;
-  color: $brand-bright-white;
+.resume-position,
+.resume-company,
+.resume-year {
+  font-weight: bold;
 }
 
-.blog-post__img {
-  width: 90%;
-  margin: auto;
-  height: 400px;
+.resume-position {
+  color: $brand-gold;
+}
+
+.resume-year {
+  color: $brand-secondary;
+}
+
+.resume-references {
+  padding-top: 0.5rem;
+  font-weight: bolder;
+  font-style: italic;
+  color: $brand-gold;
 }
