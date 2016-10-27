@@ -21,14 +21,16 @@
   padding: .3em 0;
 }
 
+
 .work-graph {
   width: 70%;
   margin: auto;
-  padding-top: 1em;
+  padding: 1em;
   font-size: 1.5em;
   text-align: justify;
   color: $brand-bright-white;
 }
+
 
 .portfolio-icons {
   display: flex;
@@ -40,6 +42,10 @@
   font-size: 4rem;
   text-align: center;
   padding: 10px;
+
+  &:hover {
+    color: $brand-gold;
+  }
 }
 
 .work-section {
@@ -48,8 +54,8 @@
 }
 
 .work-section__title {
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
   padding: 1rem 0;
   margin-bottom: 0;
   color: $brand-secondary;
@@ -58,44 +64,53 @@
   text-align: center;
 }
 
-.wsd-grid__1 {
-  margin-bottom: 0.5rem;
-}
-.wsd-grid__1 {
-  margin-top: 0.5rem;
-}
 
 .work-section__grid {
   display: flex;
   flex-wrap: wrap;
+  max-width: 90%;
   justify-content: center;
-  margin: 1rem;
+  margin: auto;
   text-align: center;
 }
+
 
 .work-section-grid__card {
   flex: 1;
   flex-wrap: wrap;
-  max-width: 400px;
-  padding: 0;
-  list-style: none;
+  max-width: 300px;
+  height: 400px;
+  padding: 0.5rem;
   margin: 0.5rem;
-  border: 3px $brand-black solid;
+  list-style: none;
+  border: 1px $brand-white solid;
   background: lighten($brand-black, 10%);
+
+  &:hover {
+    background: $brand-secondary;
+    border: 2px $brand-gold solid;
+  }
+}
+
+.work-section-grid__card:hover p {
+  color: $brand-black;
 }
 
 .work-section-grid__card-img {
-  width: 90%;
-  height: 300px;
+  width: 100%;
 }
 
 .work-section-grid__card-title {
-  margin: 0.5rem 0;
+  margin: 0;
+  width: 100%;
   padding: 0.5rem;
   font-size: 1.5rem;
   line-height: 1.5rem;
   border-bottom: 3px $brand-gold solid;
 
+  &:hover a {
+    color: $brand-black;
+  }
 }
 
 .work-section-grid__card-graph {
