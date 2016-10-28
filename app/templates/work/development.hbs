@@ -76,7 +76,7 @@
       </p>
     </li>
   </ul>
-  <ul class="work-section-grid__card">
+  <ul class="work-section-grid__card bottom-card">
     <li class="work-section-grid__card-li">
       <img src="game.jpg" alt="" class="work-section-grid__card-img">
     </li>
@@ -90,4 +90,19 @@
       </p>
     </li>
   </ul>
+</div>
+<div class="port-nav">
+  {{#link-to 'work.broadcast'}}
+    <ul class="port-nav__item">
+      <li class="port-nav__li-icon"><i class="fa fa-newspaper-o" aria-hidden="true"></i></li>
+      <li class="port-nav__li-title">Broadcasting</li>
+    </ul>
+{{/link-to}}
+
+  {{#link-to 'work.capstone'}}
+    <ul class="port-nav__item">
+      <li class="port-nav__li-icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></li>
+      <li class="port-nav__li-title">Graduate Work</li>
+    </ul>
+  {{/link-to}}
 </div>
