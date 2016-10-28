@@ -12,6 +12,47 @@
   border: 3px $brand-gold solid;
 }
 
+
+//PORT NAV//
+
+.port-nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding:0 0 3rem;
+}
+
+.port-nav__item {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  list-style: none;
+  text-decoration: none;
+
+  &:hover {
+    border: 2px #333 solid;
+  }
+
+  &:active {
+    border: 2px #333 solid;
+  }
+}
+
+.port-nav__li-icon {
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+.port-nav__li-title {
+  padding: 0 1rem;
+  font-size: 1rem;
+
+}
+
+
+
+//TABS
+
+
 .page-titles {
   text-align: center;
   color: $brand-gold;
@@ -31,21 +72,8 @@
   color: $brand-bright-white;
 }
 
-
-.portfolio-icons {
-  display: flex;
-  justify-content: center;
-}
-
-
-.portfolio-icon {
-  font-size: 4rem;
+.work-graph_center {
   text-align: center;
-  padding: 10px;
-
-  &:hover {
-    color: $brand-gold;
-  }
 }
 
 .work-section {

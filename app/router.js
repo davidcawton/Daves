@@ -10,6 +10,8 @@ Router.map(function() {
   this.route('social');
   this.route('work', function() {
     this.route('development');
+    this.route('broadcast');
+    this.route('capstone');
   });
 });
 
