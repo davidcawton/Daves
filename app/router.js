@@ -12,6 +12,7 @@ Router.map(function() {
     this.route('development');
     this.route('broadcast');
     this.route('capstone');
+    this.route('creative');
   });
 });
 
