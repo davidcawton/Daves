@@ -1,0 +1,29 @@
+.creative-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.creative-grid__item {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: $brand-black;
+  border: 2px $brand-gold solid;
+}
+
+.creative-grid__item-title {
+  font-size: 2rem;
+  margin: 0;
+  text-align: center;
+  padding-top: 0.3rem;
+  color: $brand-secondary;
+}
+
+.creative-grid__item-graph {
+  width: 80%;
+  margin: auto;
+
+}

@@ -1,13 +1,28 @@
 // CONTACT //
 
 .contact-graph {
-  width: 100%;
+  width: 80%;
   font-size: 2rem;
   color: #000;
-  text-align: center;
-  margin: 1rem;
+  text-align: justify;
   padding-bottom: 1rem;
+  margin: auto;
+
 }
+
+.contact-title {
+  font-size: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  color: $brand-secondary;
+  border-bottom: 2px $brand-gold solid;
+  padding-bottom: 0.5rem;
+}
+
+.contact-i {
+  padding: 0 1rem;
+}
+
 
 .primary-contact__grid {
   display: flex;
@@ -23,5 +38,28 @@
 
 .contact-icon:hover {
   color: $brand-secondary;
+}
 
+.contact-graph a{
+  color: $brand-gold;
+
+  &:hover {
+    color: $brand-secondary;
+    text-decoration: underline;
+  }
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 1rem;
+
+  &:hover .contact-hide {
+    opacity: 1;
+  }
+}
+
+.contact-hide {
+  opacity: 0;
 }
