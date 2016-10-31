@@ -112,7 +112,7 @@
   margin: 0.5rem;
   list-style: none;
   border: 1px $brand-grey solid;
-  background: lighten($brand-black, 10%);
+  background: lighten($brand-white, 10%);
 
   &:hover {
     background: $brand-secondary;
@@ -121,7 +121,7 @@
 }
 
 .work-section-grid__card:hover p {
-  color: $brand-black;
+  color: $brand-white;
 }
 
 .work-section-grid__card-img {
@@ -137,7 +137,7 @@
   border-bottom: 3px $brand-gold solid;
 
   &:hover a {
-    color: $brand-black;
+    color: $brand-white;
   }
 }
 
