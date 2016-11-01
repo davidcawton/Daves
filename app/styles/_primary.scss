@@ -65,3 +65,36 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 1rem;
 }
+
+
+
+.primary-contact__grid {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-icon {
+  font-size: 4em;
+  color: $brand-gold;
+  padding: 0 1rem;
+}
+
+.contact-icon:hover {
+  color: $brand-secondary;
+}
+
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 1rem;
+
+  &:hover .contact-hide {
+    opacity: 1;
+  }
+}
+
+.contact-hide {
+  opacity: 0;
+}

@@ -36,22 +36,6 @@
 }
 
 
-.primary-contact__grid {
-  display: flex;
-  justify-content: center;
-}
-
-.contact-icon {
-  font-size: 4em;
-  color: $brand-gold;
-  padding: 0 1rem;
-
-}
-
-.contact-icon:hover {
-  color: $brand-secondary;
-}
-
 .contact-graph a{
   color: $brand-gold;
 
@@ -59,19 +43,4 @@
     color: $brand-secondary;
     text-decoration: underline;
   }
-}
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 1rem;
-
-  &:hover .contact-hide {
-    opacity: 1;
-  }
-}
-
-.contact-hide {
-  opacity: 0;
 }

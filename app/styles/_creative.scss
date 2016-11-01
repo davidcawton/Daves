@@ -4,6 +4,11 @@
   align-items: center;
 }
 
+.creative-grid__video {
+  width: 640px;
+  height: 400px;
+}
+
 .creative-grid__item {
   display: flex;
   flex-direction: column;

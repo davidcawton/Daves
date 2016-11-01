@@ -12,6 +12,23 @@
   border: 3px $brand-gold solid;
 }
 
+.page-titles {
+  text-align: center;
+  color: $brand-grey;
+  font-size: 6em;
+  border-bottom: 3px $brand-gold solid;
+  margin: 0;
+  padding: .3em 0;
+}
+
+.work-graph {
+  width: 70%;
+  margin: auto;
+  padding: 1em;
+  font-size: 1.5em;
+  text-align: justify;
+  color: $brand-bright-white;
+}
 
 //PORT NAV//
 
@@ -28,13 +45,6 @@
   list-style: none;
   text-decoration: none;
 
-  &:hover {
-    border: 2px #333 solid;
-  }
-
-  &:active {
-    border: 2px #333 solid;
-  }
 }
 
 .port-nav__li-icon {
@@ -49,28 +59,7 @@
 }
 
 
-
 //TABS
-
-
-.page-titles {
-  text-align: center;
-  color: $brand-grey;
-  font-size: 6em;
-  border-bottom: 3px $brand-gold solid;
-  margin: 0;
-  padding: .3em 0;
-}
-
-
-.work-graph {
-  width: 70%;
-  margin: auto;
-  padding: 1em;
-  font-size: 1.5em;
-  text-align: justify;
-  color: $brand-bright-white;
-}
 
 .work-graph_center {
   text-align: center;
@@ -95,7 +84,6 @@
 
 .work-section__grid {
   display: flex;
-  flex-wrap: wrap;
   max-width: 90%;
   justify-content: center;
   margin: auto;
@@ -105,7 +93,6 @@
 
 .work-section-grid__card {
   flex: 1;
-  flex-wrap: wrap;
   max-width: 300px;
   height: 400px;
   padding: 0.5rem;
