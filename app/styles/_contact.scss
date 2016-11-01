@@ -2,12 +2,24 @@
 
 .contact-graph {
   width: 80%;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  color: #000;
+  text-align: justify;
+  padding: 1rem;
+  margin: auto;
+}
+
+#top-i {
+  font-style: italic;
+}
+
+.contact-graph-sm{
+  width: 80%;
+  font-size: 1.3rem;
   color: #000;
   text-align: justify;
   padding-bottom: 1rem;
   margin: auto;
-
 }
 
 .contact-title {
@@ -30,7 +42,7 @@
 }
 
 .contact-icon {
-  font-size: 3em;
+  font-size: 4em;
   color: $brand-gold;
   padding: 0 1rem;
 
