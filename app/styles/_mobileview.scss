@@ -1,0 +1,167 @@
+
+@media only screen and (max-width: 479px) and (min-width: 200px) {
+
+//Primary//
+
+  .title {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .title-img {
+    max-width: 360px;
+    max-height: 300px;
+  }
+
+  //Primary Bottom Nav
+
+  .contact-icon {
+    font-size: 2.5rem;
+    padding: 0 0.5rem;
+  }
+
+ //Portfolio Section
+
+  .page-titles {
+    font-size: 2rem;
+  }
+
+  .work-graph {
+    font-size: 0.9rem;
+    width: 90%;
+  }
+
+
+
+  .port-nav {
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .port-nav__item {
+    width: 100%;
+    padding: 0;
+  }
+
+  .nav-item__btm {
+    flex-direction: column;
+  }
+
+
+  .port-nav__li-icon {
+    font-size: 3rem;
+  }
+
+  .port-nav__li-title {
+    font-size: 0.8rem;
+  }
+
+  .work-section__title {
+    font-size: 1.5rem;
+  }
+
+  .work-section__grid {
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+    flex-basis: 1;
+  }
+
+  .work-section-grid__card {
+    height: 100px;
+    flex: 1;
+    width: 100%;
+
+  }
+
+  .work-section-grid__card-img {
+    display: none;
+  }
+
+  .work-section-grid__card-title {
+    font-size: 1.2rem;
+  }
+
+  .work-section-grid__card-graph {
+    font-size: 0.8rem;
+  }
+
+  //Capstone Section
+
+  .capstone-space__title {
+    font-size: 2.5rem;
+  }
+
+  .capstone-space__graph, .capstone-space__graph-center {
+    font-size: 1rem;
+  }
+
+
+
+//Creative Section
+
+  .creative-grid__video {
+    width: 100%;
+    height: 300px;
+  }
+
+  .creative-grid__item {
+    width: 90%;
+  }
+
+//Resume Section
+
+  .table-title {
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 0.2rem;
+  }
+
+  .resume {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5px $brand-secondary solid;
+    align-items: center;
+  }
+
+  .resume-head-row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+  }
+
+
+
+  .resume-row__li, .resume-body, .assets-graph {
+    font-size: 0.9rem;
+    font-weight: normal;
+    width: 100%;
+  }
+
+  .resume-body {
+    padding: 0.5rem;
+  }
+
+
+
+
+
+//Contact Section
+  .contact-graph {
+    font-size: 1rem;
+    margin: auto;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .work-contact {
+    min-height: 250px;
+
+  }
+
+}
