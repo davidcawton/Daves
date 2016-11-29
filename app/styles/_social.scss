@@ -1,61 +1,56 @@
-
-
 .resume {
-  padding-left: 0.5rem;
-  padding-top: 0.5rem;
-  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
 }
 
-.table-title {
+.resume-group__title {
+  color: $accent-red;
+  font-size: 3em;
+  text-align: left;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 5px solid $primary-white;
+  text-shadow: 1px 1px 2px #000;
+
+}
+
+
+.resume-item {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid $primary-white;
+  margin-bottom: 3rem;
+}
+
+.resume-item__heading {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
   font-size: 2rem;
-  color: $brand-secondary;
-  font-weight: bold;
-  width: 100%;
-  border-bottom: 3px $brand-secondary solid;
-}
-
-.resume-head {
-  text-align: left;
-}
-
-.resume-head-row {
-  width: 100%;
-}
-
-.resume-row__li {
-  font-weight: bold;
-  font-size: 1.1rem;
-}
-
-.resume-row__title {
-  width: 20%;
-}
-
-.resume-row__year {
-  width: 10%;
-  color: $brand-gold;
-}
-
-.resume-row__company {
-  color: $brand-secondary;
-}
-
-.resume-body {
-  text-align: left;
-  padding-top: 1rem;
-}
-
-.assets-title {
   margin-bottom: 0;
+  color: $accent-tan;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.resume-date {
+  color: $accent-red;
+}
+
+.resume-item__body {
+  text-align: justify;
+  color: $primary-white;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px #000;
 }
 
 .assets-graph {
-  font-size: 1.2rem;
-  padding: 0 1rem 0;
-  margin-bottom: 1rem;
+  text-shadow: 1px 1px 2px #000;
+  font-size: 2rem;
 }
 
-.references {
-  text-align: center;
-  font-style: italic;
+.red {
+  color: $accent-red;
 }
