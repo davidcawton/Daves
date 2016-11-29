@@ -1,34 +1,6 @@
 <div class="real-top">
-
-  <div class="top-nav">
-    {{#link-to "index"}}
-      <ul class="top-nav__item">
-        <li class="top-nav__li-icon"><i class="fa fa-home" aria-hidden="true"></i></li>
-      </ul>
-    {{/link-to}}
-    {{#link-to "work"}}
-      <ul class="top-nav__item">
-        <li class="top-nav__li-icon"><i class="fa fa-black-tie" aria-hidden="true"></i></li>
-        <li class="top-nav__li-title">Portfolio</li>
-      </ul>
-    {{/link-to}}
-    {{#link-to "social"}}
-      <ul class="top-nav__item">
-        <li class="top-nav__li-icon"><i class="fa fa-briefcase" aria-hidden="true"></i></li>
-        <li class="top-nav__li-title">Resume</li>
-      </ul>
-    {{/link-to}}
-    {{#link-to "coffee"}}
-      <ul class="top-nav__item">
-        <li class="top-nav__li-icon"><i class="fa fa-coffee" aria-hidden="true"></i></li>
-        <li class="top-nav__li-title">Contact</li>
-      </ul>
-    {{/link-to}}
-
-  </div>
-
+{{top-nav}}
   <div class="primary">
-    {{outlet}}
     <div class="primary-title__section">
       {{#link-to "index"}}
         <h1 class="title">David Cawton</h1>
@@ -38,41 +10,8 @@
       </div>
       <img class="title-img" src="http://bit.ly/2eKnJmX" alt="David Cawton">
     </div>
+    {{outlet}}
   </div>
-  <div class="primary-contact__grid">
-    <div class="contact">
-      <p>
-        <a href=tel:9044856991 target="_blank">
-          <i class="fa fa-phone contact-icon"></i>
-        </a>
-      </p>
-      <p class="contact-hide">Call</p>
-    </div>
-    <div class="contact">
-      <p>
-        <a href="mailto:dcawton@gmail.com" target="_blank">
-          <i class="fa fa-envelope-o contact-icon"></i>
-        </a>
-      </p>
-      <p class="contact-hide">Email</p>
-    </div>
-    <div class="contact">
-      <p>
-        <a href="https://github.com/davidcawton" target="_blank">
-          <i class="fa fa-github contact-icon"></i>
-        </a>
-      </p>
-      <p class="contact-hide">Git Repo</p>
-    </div>
-    <div class="contact">
-      <p>
-        <a href="https://www.linkedin.com/in/david-cawton-ii-a6129b54
-  " target="_blank">
-          <i class="fa fa-linkedin contact-icon"></i>
-        </a>
-      </p>
-      <p class="contact-hide">LinkedIn</p>
-    </div>
-  </div>
+  {{main-contact}}
   <p class="copyright">Copyright (c) 2016 Copyright David Cawton | All Rights Reserved.</p>
 </div>
