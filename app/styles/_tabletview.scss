@@ -1,158 +1,99 @@
+// TABLET SCREENS
+@media only screen and (max-width: 799px) and (min-width: 480px) {
+  //TOP NAV//
 
-@media only screen and (max-width: 729px) and (min-width: 480px) {
+    .top-nav {
+      height: 70px;
+    }
 
-//Primary//
+    .top-nav__item {
+      padding: 0 0.5rem;
 
-  .title {
-    font-size: 3rem;
-    line-height: 4rem;
-  }
+      li {
+        font-size: 1.2rem;
+      }
+    }
 
-  .title-img {
-    max-width: 460px;
-    max-height: 300px;
-  }
+    .top-nav__right {
+      display: none;
+    }
 
-  //Primary Bottom Nav
+//TITLE SECTION
 
-  .contact-icon {
-    font-size: 2.5rem;
-    padding: 0 0.5rem;
-  }
-
- //Portfolio Section
-
-  .page-titles {
-    font-size: 3rem;
-  }
-
-  .work-graph {
-    font-size: 1rem;
-    width: 90%;
-  }
-
-
-
-  .port-nav {
-    flex-wrap: wrap;
-    width: 100%;
-    padding-bottom: 1.5rem;
+  .primary {
     text-align: center;
   }
 
-  .port-nav__item {
-    width: 100%;
-    padding: 0;
-
+  .primary-title {
+    padding-bottom: 1rem;
   }
 
 
-  .port-nav__li-icon {
-    font-size: 2rem;
-  }
+  //WORK SECTIONS
 
-  .port-nav__li-title {
-    font-size: 0.8rem;
-  }
+    .port-nav__li-icon {
+      font-size: 3rem;
 
-  .work-section__title {
-    font-size: 2rem;
-  }
+    }
 
-  .work-section__grid {
-    width: 300px;
-    flex-direction: column;
-    margin: auto;
-    flex-basis: 1;
-  }
+    .port-nav__li-title {
+      display: none;
+    }
 
-  .work-section-grid__card {
-    height: 100px;
-    flex: 1;
-    width: 100%;
+    .work-section__title {
+      font-size: 2rem;
+    }
 
-  }
+    .work-grid {
+      flex-direction: column;
+      padding: 1rem 0 0;
+    }
 
-  .work-section-grid__card-img {
-    display: none;
-  }
+    .creative-grid__video {
+      height: 200px;
+    }
 
-  .work-section-grid__card-title {
-    font-size: 1.2rem;
-  }
+    .creative-grid__title {
+      font-size: 2rem;
+    }
 
-  .work-section-grid__card-graph {
-    font-size: 0.8rem;
-  }
+    // RESUME
 
-  //Capstone Section
+    .resume-group__title {
+      text-align: center;
+    }
 
-  .capstone-space__title {
-    font-size: 2.5rem;
-  }
+    .resume-item__heading {
+      flex-direction: column;
+      align-items: center;
+    }
 
-  .capstone-space__graph, .capstone-space__graph-center {
-    font-size: 1rem;
-  }
+    .assets-graph {
+      text-align: left;
+      font-size: 1.5rem;
+    }
 
-
-
-//Creative Section
-
-  .creative-grid__video {
-    width: 100%;
-    height: 300px;
-  }
-
-  .creative-grid__item {
-    width: 90%;
-  }
-
-//Resume Section
-
-  .table-title {
-    font-size: 1rem;
-    text-align: center;
-    padding-bottom: 0.2rem;
-  }
-
-  .resume {
-    display: flex;
-    flex-direction: column;
-    border-bottom: 0.5px $brand-secondary solid;
-    align-items: center;
-  }
-
-  .resume-head-row {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-  }
+    .assets-title {
+      margin-top: 0;
+    }
 
 
 
-  .resume-row__li, .resume-body, .assets-graph {
-    font-size: 0.9rem;
-    font-weight: normal;
-    width: 100%;
-  }
+    // CONTACT
 
-  .resume-body {
-    padding: 0.5rem;
-  }
+    .primary-contact__grid {
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+    }
+    .contact {
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+    }
 
-
-
-
-
-//Contact Section
-  .contact-graph {
-    font-size: 1.2rem;
-    margin: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    width: 100%;
-  }
+    .contact-text {
+      margin: 0;
+    }
 
 }
