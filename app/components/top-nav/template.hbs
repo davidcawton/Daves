@@ -1,27 +1,42 @@
-
-  <div class="top-nav">
-    {{#link-to "index"}}
-      <ul class="top-nav__item">
-        <li class="top-nav__li-icon"><i class="fa fa-home" aria-hidden="true"></i></li>
-      </ul>
-    {{/link-to}}
+<div class="top-nav">
+  <div class="top-nav__group">
     {{#link-to "work"}}
       <ul class="top-nav__item">
-        <li class="top-nav__li-icon"><i class="fa fa-black-tie" aria-hidden="true"></i></li>
-        <li class="top-nav__li-title">Portfolio</li>
+        <li class="top-nav__li"><i class="fa fa-black-tie" aria-hidden="true"></i>Portfolio</li>
       </ul>
     {{/link-to}}
     {{#link-to "social"}}
       <ul class="top-nav__item">
-        <li class="top-nav__li-icon"><i class="fa fa-briefcase" aria-hidden="true"></i></li>
-        <li class="top-nav__li-title">Resume</li>
+        <li class="top-nav__li-icon"><i class="fa fa-briefcase" aria-hidden="true"></i>Resume</li>
       </ul>
     {{/link-to}}
     {{#link-to "coffee"}}
       <ul class="top-nav__item">
-        <li class="top-nav__li-icon"><i class="fa fa-coffee" aria-hidden="true"></i></li>
-        <li class="top-nav__li-title">Contact</li>
+        <li class="top-nav__li-icon"><i class="fa fa-coffee" aria-hidden="true"></i>Contact</li>
       </ul>
     {{/link-to}}
-
   </div>
+
+  <div class="top-nav__group top-nav__right">
+    <a href="tel:9044856991" target="_blank">
+      <ul class="top-nav__item">
+        <li class="top-nav__li-icon"><i class="fa fa-phone" aria-hidden="true"></i>Call</li>
+      </ul>
+    </a>
+    <a href="mailto:dcawton@gmail.com" target="_blank">
+      <ul class="top-nav__item">
+        <li class="top-nav__li-icon"><i class="fa fa-envelope-o" aria-hidden="true"></i>Email</li>
+      </ul>
+    </a>
+    <a href="https://www.linkedin.com/in/david-cawton" target="_blank">
+      <ul class="top-nav__item">
+        <li class="top-nav__li-icon"><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</li>
+      </ul>
+    </a>
+    <a href="https://github.com/davidcawton" target="_blank">
+      <ul class="top-nav__item">
+        <li class="top-nav__li-icon"><i class="fa fa-github" aria-hidden="true"></i>Github</li>
+      </ul>
+    </a>
+  </div>
+</div>

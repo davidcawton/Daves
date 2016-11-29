@@ -2,104 +2,32 @@
 .primary {
   position: relative;
   display: flex;
+  width: 100%;
+  height: calc(100vh - 200px);
   flex-direction: column;
   padding:0;
-  margin-top: 8em;
-  align-items: flex-start;
-
-}
-
-.primary-title__section {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  text-align: center;
-  width: 100%;
-  min-height: 400px;
-
+  background: url('../atx.jpg') no-repeat center fixed;
+  background-size: cover;
+  border-bottom: 10px solid $accent-tan;
+  border-top: 10px solid $accent-tan;
 }
 
-.title {
-  font-size: 6rem;
-  line-height: 6rem;
-  color: #333;
+
+.primary-title {
+  font-size: 5rem;
+  line-height: 5rem;
+  color: $secondary-blue;
   margin: auto;
   margin-top: 0.5em;
   padding-bottom: 0.2rem;
-  border-bottom: 1px $brand-gold solid;
-  font-family: 'Homemade Apple', cursive;
-
+  border-bottom: 5px $accent-tan solid;
+  font-family: sans-serif;
 }
 
 .sub-title {
-  font-family: 'Arvo', sans-serif;
-  color: $brand-gold;
+  font-family: sans-serif;
+  color: $accent-tan;
   font-size: 1.2rem;
-}
-
-.primary-contact__grid {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.contact-grid__link {
-  padding: 2rem 1rem ;
-}
-
-
-.top-cover {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 100%;
-  height: 900px;
-  justify-content: center;
-  background: $brand-primary;
-}
-
-
-.title-img {
-  max-width: 900px;
-  max-height: 550px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-top: 1rem;
-}
-
-
-
-.primary-contact__grid {
-  display: flex;
-  justify-content: center;
-}
-
-.contact-icon {
-  font-size: 4em;
-  color: $brand-gold;
-  padding: 0 1rem;
-}
-
-.contact-icon:hover {
-  color: $brand-secondary;
-}
-
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 1rem;
-
-  &:hover .contact-hide {
-    opacity: 1;
-  }
-}
-
-.contact-hide {
-  opacity: 0;
-}
-
-.copyright {
-  text-align: center;
-  font-size: 0.6rem;
+  font-weight: bold;
 }

@@ -1,5 +1,20 @@
-$brand-white: #fff;
-$brand-primary: #eee;
+// PRIMARY COLORS
+$primary-white: #f7fff7;
+$secondary-blue: #002449;
+$accent-tan: #b87333;
+$accent-teal: #5ed1c9;
+$accent-red: #f15025;
+
+// 70% OPACITY COLORS
+
+$light-white: rgba(247, 255, 247, 0.7);
+$light-blue: rgba(#002449, 0.7);
+$light-tan: rgba(#b87332, 0.7);
+$light-teal: rgba(#5ed1c9, 0.7);
+$light-red: rgba(#f15025, 0.7);
+
+
+$brand-primary: #fff;
 $brand-gold: #9F792C;
 $brand-grey: #333;
 $brand-secondary: #006778;
@@ -16,3 +31,5 @@ $brand-bright-white: #000;
 @import 'smallscreenview';
 @import 'tabletview';
 @import 'mobileview';
+@import 'ember-side-menu';
+@import 'footer';

@@ -44,3 +44,47 @@
     text-decoration: underline;
   }
 }
+
+
+
+
+.primary-contact__grid {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-grid__link {
+  padding: 2rem 1rem ;
+}
+
+.primary-contact__grid {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-icon {
+  font-size: 4em;
+  color: $secondary-blue;
+  padding: 0 1rem;
+}
+
+.contact-icon:hover {
+  color: $accent-teal;
+}
+
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 1rem;
+
+  &:hover .contact-hide {
+    opacity: 1;
+  }
+}
+
+.contact-hide {
+  opacity: 0;
+}

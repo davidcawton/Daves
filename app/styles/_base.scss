@@ -13,33 +13,22 @@ html {
 body {
   padding:0;
   margin: 0;
-  font-family: 'Arvo', serif;
-  background: $brand-primary;
+  font-family: sans-serif;
+  background: $secondary-blue;
 
 }
 
 a {
   text-decoration: none;
-  color: $brand-gold;
+  color: $secondary-blue;
 }
 
 a h2 h1{
   text-decoration: none;
-  color: $brand-gold;
 }
 
 
 .fa {
   padding-left: 5px;
   padding-right: 5px;
-  color: $brand-gold;
-}
-
-.fa:hover {
-  color: $brand-grey;
-}
-
-.fa:active .top-cover_tab {
-  opacity: 1;
-  transition: 1000ms;
 }

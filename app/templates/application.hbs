@@ -1,17 +1,15 @@
-<div class="real-top">
-{{top-nav}}
+<div class="main-container">
+  {{top-nav}}
+
   <div class="primary">
-    <div class="primary-title__section">
-      {{#link-to "index"}}
-        <h1 class="title">David Cawton</h1>
-      {{/link-to}}
-      <div class="sub-title__group">
-        <p class="sub-title">Media | Development | Creative</p>
-      </div>
-      <img class="title-img" src="http://bit.ly/2eKnJmX" alt="David Cawton">
-    </div>
-    {{outlet}}
+    {{#link-to "index"}}
+      <h1 class="primary-title">DAVID CAWTON</h1>
+    {{/link-to}}
+    <p class="sub-title">MEDIA | DEVELOPMENT | CREATIVE</p>
   </div>
-  {{main-contact}}
-  <p class="copyright">Copyright (c) 2016 Copyright David Cawton | All Rights Reserved.</p>
+  {{outlet}}
 </div>
+<footer>
+  <h3 class="footer-title">BUILD BY DAVE</h3>
+  <p class="copyright">COPYRIGHT (C) 2016 DAVID CAWTON | ALL RIGHTS RESERVED</p>
+</footer>
