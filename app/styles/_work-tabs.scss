@@ -2,10 +2,11 @@
 
 .work-section__title {
   font-size: 4rem;
-  line-height: 4rem;
+  align-items: center;
   margin: 2rem 0 1rem;
   text-align: center;
   color: $accent-red;
+  text-shadow: 2px 2px 4px #000;
 
   i {
     color: $primary-white;

@@ -1,9 +1,9 @@
 // CONTACT //
 
 .contact-graph {
-  width: 80%;
+  width: 70%;
   font-size: 1.5rem;
-  color: #000;
+  color: $primary-white;
   text-align: justify;
   padding: 1rem;
   margin: auto;
@@ -13,14 +13,6 @@
   font-style: italic;
 }
 
-.contact-graph__sm{
-  width: 80%;
-  font-size: 1.3rem;
-  color: #000;
-  text-align: justify;
-  padding-bottom: 1rem;
-  margin: auto;
-}
 
 .contact-title {
   font-size: 3rem;
@@ -46,7 +38,7 @@
 }
 
 
-
+// CONTACT LINKS GRID
 
 .primary-contact__grid {
   display: flex;
@@ -59,32 +51,41 @@
 }
 
 .primary-contact__grid {
+  width: 70%;
+  margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .contact-icon {
   font-size: 4em;
-  color: $secondary-blue;
+  color: $accent-tan;
   padding: 0 1rem;
 }
 
 .contact-icon:hover {
-  color: $accent-teal;
+  color: $accent-red;
 }
 
 
 .contact {
   display: flex;
+  flex: 1;
   flex-direction: column;
   margin: 0;
   padding: 1rem;
 
-  &:hover .contact-hide {
+  &:hover .hide {
     opacity: 1;
   }
+
 }
 
-.contact-hide {
+.hide {
   opacity: 0;
+}
+
+.contact-text {
+  color: $accent-tan;
+  font-size: 2rem;
 }

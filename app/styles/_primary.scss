@@ -14,19 +14,25 @@
 
 
 .primary-title {
-  font-size: 5rem;
-  line-height: 5rem;
-  color: $secondary-blue;
+  font-size: 8rem;
+  line-height: 6rem;
+  color: $primary-white;
   margin: auto;
   margin-top: 0.5em;
   padding-bottom: 0.2rem;
   border-bottom: 5px $accent-tan solid;
-  font-family: sans-serif;
+  font-family: 'Unica One', sans-serif;
+  text-shadow: 2px 2px 4px #000;
+
+
 }
 
 .sub-title {
   font-family: sans-serif;
-  color: $accent-tan;
+  color: $secondary-blue;
   font-size: 1.2rem;
   font-weight: bold;
+  background: $light-white;
+  padding: 1rem 2rem;
+  border: 5px solid $secondary-blue;
 }
