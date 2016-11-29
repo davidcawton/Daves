@@ -1,44 +1,10 @@
-.capstone-space {
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  margin: auto;
-}
-
-.capstone-space__title {
-  font-size: 5em;
-  color: $brand-secondary;
-  text-align: center;
-  margin: 0.5rem 0;
-}
-
-.capstone-space__graph {
-  font-size: 1.5rem;
-  margin: 0.5rem 0 3rem;
-  text-align: justify;
-  border-bottom: 1px $brand-gold solid;
-}
-
-.capstone-space__graph-center {
-  width: 70%;
-  font-size: 1.5rem;
-  margin: auto;
-  margin-bottom: 3rem;
-  text-align: justify;
-}
-
-.capstone-space__img {
-  display: flex;
-  max-width: 90%;
-  margin: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
 .graduate-blog {
   display: flex;
   justify-content: center;
   margin: auto;
   width: 70%;
+  color: $accent-tan;
 }
 
 .blog-link {

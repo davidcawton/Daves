@@ -5,125 +5,55 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 80%;
+  width: 100%;
+  padding-top: 1rem;
   margin: auto;
-  background: $primary-white;
+  background: $secondary-blue;
 }
 
 .page-titles {
   text-align: center;
-  color: $secondary-blue;
-  font-size: 6em;
-  border-bottom: 3px $accent-red solid;
+  color: $accent-tan;
+  font-size: 5em;
   margin: 0;
   padding: .3em 0;
 }
 
-.work-graph {
-  width: 70%;
-  margin: auto;
-  padding: 1em;
-  font-size: 1.5em;
-  text-align: justify;
-}
 
 //PORT NAV//
 
 .port-nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
-  padding:0 0 3rem;
+  width: 70%;
+  margin: auto;
+  border-bottom: 10px solid $accent-red;
 }
 
 .port-nav__item {
-  padding: 0.5rem;
-  margin: 0.5rem;
   list-style: none;
+  padding-left: 0;
   text-decoration: none;
+  color: $accent-tan;
+}
 
+.port-nav__item:hover .port-nav__li-title {
+  opacity: 1;
+  color: $primary-white;
+}
+
+.port-nav__item:hover .port-nav__li-icon {
+  color: $accent-red;
 }
 
 .port-nav__li-icon {
-  font-size: 5rem;
+  font-size: 7rem;
   margin-bottom: 0;
 }
 
 .port-nav__li-title {
-  padding: 0 1rem;
   font-size: 1rem;
-
-}
-
-
-//TABS
-
-.work-graph_center {
-  text-align: center;
-}
-
-.work-section {
-  margin-top: 2rem;
-  display: flex;
-}
-
-.work-section__title {
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  padding: 1rem 0;
-  margin-bottom: 0;
-  border-top: 3px $secondary-blue solid;
-  border-bottom: 3px $accent-red solid;
-  text-align: center;
-}
-
-
-.work-section__grid {
-  display: flex;
-  max-width: 90%;
-  justify-content: center;
-  margin: auto;
-  text-align: center;
-}
-
-
-.work-section-grid__card {
-  flex: 1;
-  max-width: 300px;
-  height: 400px;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  list-style: none;
-  border: 1px $secondary-blue solid;
-  background: lighten($primary-white, 10%);
-
-  &:hover {
-    background: $secondary-blue;
-    border: 2px $secondary-blue solid;
-  }
-}
-
-.work-section-grid__card:hover p {
-  color: $primary-white;
-}
-
-.work-section-grid__card-img {
-  width: 100%;
-}
-
-.work-section-grid__card-title {
-  margin: 0;
-  width: 100%;
-  padding: 0.5rem;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-  border-bottom: 3px $brand-gold solid;
-
-  &:hover a {
-    color: $primary-white;
-  }
-}
-
-.work-section-grid__card-graph {
-  color: $brand-grey;
+  font-weight: bold;
+  opacity: 0;
 }

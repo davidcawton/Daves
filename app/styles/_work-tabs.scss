@@ -1,0 +1,82 @@
+//PORTFOLIO TABS BASE STYLES
+
+.work-section__title {
+  font-size: 4rem;
+  line-height: 4rem;
+  margin: 2rem 0 1rem;
+  text-align: center;
+  color: $accent-red;
+
+  i {
+    color: $primary-white;
+  }
+}
+
+.work-graph {
+  width: 70%;
+  margin: auto;
+  padding: 2rem 0;
+  font-size: 1.5em;
+  text-align: justify;
+  color: $primary-white;
+}
+
+.work-graph a {
+  color: $accent-red;
+}
+
+.work-grid {
+  display: flex;
+  max-width: 90%;
+  justify-content: center;
+  margin: auto;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+
+.work-grid__card {
+  flex: 1;
+  max-width: 300px;
+  height: 400px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  list-style: none;
+  border: 1px $secondary-blue solid;
+  background: $primary-white;
+
+  &:hover {
+    background: $secondary-blue;
+    border: 5px $accent-red solid;
+    color: $primary-white;
+  }
+}
+
+.work-grid__card:hover p {
+  color: $primary-white;
+}
+
+.work-grid__card:hover a {
+  color: $primary-white;
+}
+
+.work-grid__card-img {
+  width: 100%;
+}
+
+.work-grid__card-title {
+  margin: 0;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  border-bottom: 3px $accent-tan solid;
+}
+
+.work-grid__card-body {
+  color: $secondary-blue;
+  text-align: justify;
+  width: 70%;
+  margin: auto;
+  margin-top: 1rem;
+}
