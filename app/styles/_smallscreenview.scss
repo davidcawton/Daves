@@ -1,91 +1,49 @@
 
-@media only screen and (max-width: 930px) and (min-width: 730px) {
+@media only screen and (max-width: 1000px) and (min-width: 800px) {
 
-//Primary//
+//TOP NAV//
 
-  .title {
-    font-size: 4rem;
-    line-height: 4rem;
+  .top-nav {
+    height: 70px;
   }
 
-  .title-img {
-    max-width: 700px;
-    max-height: 300px;
+  .top-nav__item {
+    padding: 0.5rem;
   }
 
-  //Primary Bottom Nav
-
-  .contact-icon {
-    font-size: 3rem;
-    padding: 0 0.5rem;
-  }
-
- //Portfolio Section
-
-  .page-titles {
-    font-size: 4rem;
-  }
-
-  .work-graph {
-    font-size: 1.2rem;
-  }
-
-  .port-nav {
-    padding-bottom: 1.5rem;
-  }
+//WORK SECTIONS
 
   .port-nav__li-icon {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 
   .port-nav__li-title {
-    font-size: 0.8rem;
-  }
-
-  .work-section__title {
-    font-size: 2rem;
-  }
-
-  .work-section-grid__card {
-    height: 325px;
-  }
-
-  .work-section-grid__card-title {
-    font-size: 1.2rem;
-  }
-
-  //Capstone Section
-
-  .capstone-space__title {
-    font-size: 2.5rem;
-  }
-
-  .capstone-space__graph, .capstone-space__graph-center {
     font-size: 1rem;
   }
 
-//Creative Section
+  .work-section__title {
+    font-size: 3rem;
+  }
 
   .creative-grid__video {
-    width: 500px;
-    height: 300px;
+    height: 400px;
   }
 
-//Resume Section
 
-  .table-title {
-    font-size: 1.5rem;
+  // CONTACT
+
+  .primary-contact__grid {
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
   }
-
-  .resume-row__li, .resume-body, .assets-graph {
-    font-size: 0.9rem;
+  .contact {
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
   }
 
-
-//Contact Section
-  .contact-graph {
-    font-size: 1.2rem;
+  .contact-text {
+    margin: 0;
   }
-
 }
