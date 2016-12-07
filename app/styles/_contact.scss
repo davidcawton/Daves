@@ -7,6 +7,8 @@
   text-align: justify;
   padding: 1rem;
   margin: auto;
+  font-family: 'Quattrocento', serif;
+
 }
 
 #top-i {
@@ -75,13 +77,13 @@
   padding: 1rem;
 
   &:hover .hide {
-    opacity: 1;
+    color: $accent-red;
   }
 
 }
 
 .hide {
-  opacity: 0;
+  opacity: 1;
 }
 
 .contact-text {
