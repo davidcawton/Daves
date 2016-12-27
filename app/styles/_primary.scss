@@ -1,5 +1,6 @@
 
 .primary {
+  position: relative;
   display: flex;
   width: 100%;
   margin-top: 60px;
@@ -12,7 +13,6 @@
   border-bottom: 10px solid $accent-tan;
 }
 
-
 .primary-title {
   font-size: 8rem;
   color: $primary-white;
@@ -22,8 +22,6 @@
   border-bottom: 5px $accent-tan solid;
   font-family: 'Unica One', sans-serif;
   text-shadow: 2px 2px 4px #000;
-
-
 }
 
 .sub-title {
@@ -35,5 +33,12 @@
   padding: 1rem 2rem;
   border: 5px solid $secondary-blue;
   font-family: 'Playfair Display', serif;
+}
+
+.top-img {
+  width: 500px;
+  padding-top: 20px;
+  border-radius: 50%;
+  box-shadow: 0 8px 6px -6px black;
 
 }
