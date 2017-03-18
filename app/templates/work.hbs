@@ -3,20 +3,19 @@
     PORTFOLIO
   </h2>
 
-  <p class="work-graph">
-    My work experience ranges from broadcast journalism, to web development, IT, marketing and digital content creation. For each category below, you'll find a few examples of work and some side projects. </p>
-    <p class="work-graph">
-    If you’d like more information on my work and education history, please visit the {{#link-to 'social'}}Resume{{/link-to}} section.
-  </p>
-  <p class="work-graph">PLEASE DO NOT USE The 'REFRESH' or 'BACK/FORWARD' Buttons in the browser. Use links only. </p>
-
   <div class="port-nav">
 
     {{#link-to 'work.broadcast'}}
       <ul class="port-nav__item">
-        <li class="port-nav__li-icon"><i class="fa fa-newspaper-o" aria-hidden="true"></i></li>
-        <li class="port-nav__li-title">BROADCASTING</li>
+        <li class="port-nav__li-icon"><i class="fa fa-television" aria-hidden="true"></i></li>
+        <li class="port-nav__li-title">BROADCAST</li>
       </ul>
+  {{/link-to}}
+  {{#link-to 'work.capstone'}}
+    <ul class="port-nav__item">
+      <li class="port-nav__li-icon"><i class="fa fa-newspaper-o" aria-hidden="true"></i></li>
+      <li class="port-nav__li-title">WRITTEN</li>
+    </ul>
   {{/link-to}}
 
   {{#link-to 'work.development'}}
@@ -25,12 +24,7 @@
         <li class="port-nav__li-title">DEVELOPMENT</li>
       </ul>
     {{/link-to}}
-    {{#link-to 'work.capstone'}}
-      <ul class="port-nav__item">
-        <li class="port-nav__li-icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></li>
-        <li class="port-nav__li-title">GRADUATE</li>
-      </ul>
-    {{/link-to}}
+
     {{#link-to 'work.creative'}}
       <ul class="port-nav__item">
         <li class="port-nav__li-icon"><i class="fa fa-film" aria-hidden="true"></i></li>

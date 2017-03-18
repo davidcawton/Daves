@@ -2,43 +2,37 @@
 .primary {
   position: relative;
   display: flex;
+  justify-content: center;
   width: 100%;
   margin-top: 60px;
   height: calc(100vh - 200px);
   flex-direction: column;
   padding:0;
   align-items: center;
-  background: url('../atx.jpg') no-repeat bottom fixed;
+  background: url('../sleepbw.png') no-repeat bottom fixed;
   background-size: cover;
-  border-bottom: 10px solid $accent-tan;
+  border-bottom: 10px solid $accent-teal;
 }
 
 .primary-title {
   font-size: 8rem;
-  color: $primary-white;
+  color: $primary-black;
   margin: auto;
-  margin-top: 0.5em;
-  padding-bottom: 0.2rem;
-  border-bottom: 5px $accent-tan solid;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border-bottom: 5px $primary-black solid;
   font-family: 'Unica One', sans-serif;
-  text-shadow: 2px 2px 4px #000;
+  text-shadow: 2px 2px 4px $primary-white;
+  background: $light-white;
+  border: 5px solid $primary-black;
 }
 
 .sub-title {
-  font-family: sans-serif;
-  color: $secondary-blue;
-  font-size: 1.2rem;
+  font-family:'Unica One', sans-serif;
+  color: $primary-black;
+  font-size: 2rem;
   font-weight: bold;
   background: $light-white;
   padding: 1rem 2rem;
-  border: 5px solid $secondary-blue;
-  font-family: 'Playfair Display', serif;
-}
-
-.top-img {
-  width: 500px;
-  padding-top: 20px;
-  border-radius: 50%;
-  box-shadow: 0 8px 6px -6px black;
-
+  border: 5px solid $primary-black;
 }

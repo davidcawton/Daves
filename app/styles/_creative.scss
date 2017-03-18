@@ -1,31 +1,34 @@
 .creative-grid {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  width: 80%;
+  margin: auto;
 }
 
 .creative-grid__item {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 0 0 2rem;
-  width: 70%;
+  width: 100%;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  background: $secondary-blue;
+  background: $primary-black;
 }
 
 .creative-grid__video {
-  width: 100%;
-  height: 600px;
+  width: 90%;
+  height: 350px;
+  border: 1px solid #fff;
 }
 
 .creative-grid__title {
   font-size: 3rem;
   margin: 0;
   text-align: center;
-  padding: 1rem 0;
-  color: $accent-tan;
-  border-bottom: 2px solid $accent-tan;
+  padding: 1.5rem 0;
+  color: $primary-white;
 }
 
 .creative-grid__graph {

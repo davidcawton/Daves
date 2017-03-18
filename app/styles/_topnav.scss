@@ -8,8 +8,8 @@
   margin: auto;
   justify-content: space-around;
   text-align: center;
-  background: $secondary-blue;
-  border-bottom: 10px solid $accent-tan;
+  background: $primary-black;
+  border-bottom: 10px solid $accent-teal;
 }
 
 .top-nav__group {
@@ -24,7 +24,7 @@
   font-weight: bold;
 
   &:hover {
-    color: $accent-red;
+    color: $accent-teal;
   }
 
   li {
