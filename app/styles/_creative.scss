@@ -1,20 +1,26 @@
 .creative-grid {
   display: flex;
-  align-items: center;
-  width: 80%;
-  margin: auto;
+max-width: 90%;
+margin: auto;
+justify-content: center;
+text-align: center;
+}
+
+.reel-img {
+  width: 300px;
+  box-shadow: 0 8px 6px -6px black;
 }
 
 .creative-grid__item {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 0 2rem;
-  width: 100%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  background: $primary-black;
+  padding: 1rem;
+  margin: 1rem;
+
+  background: $primary-white;
 }
 
 .creative-grid__video {
@@ -24,11 +30,14 @@
 }
 
 .creative-grid__title {
+  position: absolute;
   font-size: 3rem;
   margin: 0;
+  width: 300px;
+  background: rgba($primary-white, .9);
   text-align: center;
   padding: 1.5rem 0;
-  color: $primary-white;
+  color: $primary-black;
 }
 
 .creative-grid__graph {

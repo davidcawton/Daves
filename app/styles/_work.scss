@@ -4,45 +4,44 @@
 .work {
   display: flex;
   flex-direction: column;
-  position: relative;
   width: 100%;
-  padding-top: 1rem;
+  padding-top: 2.5rem;
   margin: auto;
-  background: $primary-black;
+  background: $primary-white;
+
 }
 
 .page-titles {
   text-align: center;
-  color: $primary-white;
-  font-size: 7em;
+  color: $primary-black;
+  font-size: 10em;
   margin: 0;
   padding: 2rem 0 0;
   text-shadow: 4px 4px 8px $accent-teal;
 
 }
 
-.work-graph {
-  font-family: 'Roboto Slab', serif;
 
 
-}
+
 
 //PORT NAV//
 
 .port-nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
-  width: 70%;
   margin: auto;
-  padding: 3rem 0 4rem;
+  margin-top: 0;
 }
 
 .port-nav__item {
   list-style: none;
-  padding-left: 0;
+  padding: 0;
+  margin: 1rem;
+  margin-top: 0;
   text-decoration: none;
-  color: $primary-white;
+  color: $primary-black;
 }
 
 .port-nav__item:hover .port-nav__li-title {
@@ -56,19 +55,19 @@
 }
 
 .port-nav__li-icon {
-  font-size: 7rem;
+  font-size: 6em;
   margin-bottom: 0;
 
 }
 
 .port-nav__li-title {
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: bold;
   opacity: 1;
-  color: $primary-white;
+  color: $primary-black;
 
 
   &:active {
-    color: $primary-white;
+    color: $primary-black;
   }
 }

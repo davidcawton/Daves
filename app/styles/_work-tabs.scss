@@ -5,7 +5,7 @@
   align-items: center;
   margin: 2rem 0 1rem;
   text-align: center;
-  color: $primary-white;
+  color: $primary-black;
 
   i {
     color: $accent-teal;
@@ -13,14 +13,13 @@
 }
 
 .work-graph {
-  width: 70%;
-  margin: auto;
-  margin-top: 0;
-  padding: 2rem 0;
+  width: 300px;
   font-size: 1.5em;
   text-align: justify;
-  color: $primary-white;
+  color: $primary-black;
+  font-family: 'Roboto Slab', serif;
 }
+
 
 .work-graph a {
   color: $primary-white;
@@ -36,6 +35,8 @@
 }
 
 
+
+
 .work-grid__card {
   flex: 1;
   max-width: 500px;
@@ -44,7 +45,7 @@
   margin: 0.5rem;
   list-style: none;
   border: 1px $primary-white solid;
-  background: $primary-black;
+  background: $primary-white;
 
   &:hover {
     background: $accent-teal;

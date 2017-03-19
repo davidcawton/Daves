@@ -1,18 +1,23 @@
 <div class="top-nav">
   <div class="top-nav__group">
+    {{#link-to "index"}}
+      <ul class="top-nav__item">
+        <li class="top-nav__li"><i class="fa fa-home" aria-hidden="true"></i>Home</li>
+      </ul>
+    {{/link-to}}
     {{#link-to "work"}}
       <ul class="top-nav__item">
-        <li class="top-nav__li"><i class="fa fa-black-tie" aria-hidden="true"></i>Portfolio</li>
+        <li class="top-nav__li"><i class="fa fa-black-tie" aria-hidden="true"></i>Work</li>
       </ul>
     {{/link-to}}
     {{#link-to "social"}}
       <ul class="top-nav__item">
-        <li class="top-nav__li-icon"><i class="fa fa-briefcase" aria-hidden="true"></i>Resume</li>
+        <li class="top-nav__li-icon"><i class="fa fa-briefcase" aria-hidden="true"></i>Education</li>
       </ul>
     {{/link-to}}
     {{#link-to "coffee"}}
       <ul class="top-nav__item">
-        <li class="top-nav__li-icon"><i class="fa fa-coffee" aria-hidden="true"></i>Contact</li>
+        <li class="top-nav__li-icon"><i class="fa fa-coffee" aria-hidden="true"></i>Connect</li>
       </ul>
     {{/link-to}}
   </div>

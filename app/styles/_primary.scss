@@ -5,7 +5,7 @@
   justify-content: center;
   width: 100%;
   margin-top: 60px;
-  height: calc(100vh - 200px);
+  height: calc(80vh - 200px);
   flex-direction: column;
   padding:0;
   align-items: center;
@@ -22,7 +22,7 @@
   padding: 1rem 2rem;
   border-bottom: 5px $primary-black solid;
   font-family: 'Unica One', sans-serif;
-  text-shadow: 2px 2px 4px $primary-white;
+  text-shadow: 2px 2px 4px $accent-teal;
   background: $light-white;
   border: 5px solid $primary-black;
 }
