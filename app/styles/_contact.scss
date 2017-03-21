@@ -1,92 +1,49 @@
 // CONTACT //
 
-.contact-graph {
-  width: 70%;
-  font-size: 1.5rem;
-  color: $primary-white;
-  text-align: justify;
-  padding: 1rem;
-  margin: auto;
-  font-family: 'Quattrocento', serif;
-
-}
-
-#top-i {
-  font-style: italic;
-}
-
-
 .contact-title {
+  position: absolute;
+  bottom: 3%;
   font-size: 3rem;
   line-height: 3rem;
   text-align: center;
-  color: $brand-secondary;
+  color: rgba($primary-white, 0.8);
   border-bottom: 2px $brand-gold solid;
-  padding-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 
 .contact-i {
   padding: 0 1rem;
-}
-
-
-.contact-graph a{
-  color: $brand-gold;
+  color: rgba($primary-white, 0.8);
 
   &:hover {
-    color: $brand-secondary;
-    text-decoration: underline;
+    color: $primary-white;
+    text-shadow: 1px 1px 1px  $brand-gold;
   }
 }
 
+//
 
-// CONTACT LINKS GRID
-
-.primary-contact__grid {
+.port-nav-list {
   display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.contact-grid__link {
-  padding: 2rem 1rem ;
-}
-
-.primary-contact__grid {
-  width: 70%;
-  margin: auto;
-  display: flex;
+  width: 100%;
   justify-content: space-around;
-}
+  margin: auto;
+  border: none;
+  list-style: none;
+  padding: 0;
+  text-decoration: none;
+  color: $primary-black;
 
-.contact-icon {
-  font-size: 4em;
-  color: $accent-tan;
-  padding: 0 1rem;
-}
+  i {
+    color: $primary-black;
 
-.contact-icon:hover {
-  color: $accent-red;
-}
-
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 1rem;
-
-  &:hover .hide {
-    color: $accent-red;
+    &:hover {
+      color: $accent-teal;
+    }
   }
-
 }
 
-.hide {
-  opacity: 1;
-}
-
-.contact-text {
-  color: $accent-tan;
-  font-size: 2rem;
+.port-nav-no-border {
+  border: none;
+  padding-top: 50px;
 }

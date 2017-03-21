@@ -1,53 +1,46 @@
-.resume {
+.resume-grid {
   display: flex;
-  flex-direction: column;
-  width: 70%;
+  max-width: 90%;
   margin: auto;
+  justify-content: center;
+  text-align: center;
 }
 
-.resume-group__title {
-  color: $accent-red;
-  font-size: 3em;
-  text-align: left;
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 5px solid $primary-white;
-  text-shadow: 1px 1px 2px #000;
-
-}
-
-.resume-item {
+.resume-grid__item {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid $primary-white;
-  margin-bottom: 3rem;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 8px 6px -6px black;
+  border: 1px solid rgba(#000, .7);
+  padding: .5rem;
+  margin: .5rem;
 }
 
-.resume-item__heading {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  justify-content: space-between;
-  font-size: 2rem;
-  margin-bottom: 0;
-  color: $accent-tan;
-  text-shadow: 1px 1px 2px #000;
+.resume-i {
+  color: $primary-black;
+  text-shadow: 1px 1px 2px $accent-teal;
 }
 
-.resume-date {
-  color: $accent-red;
+.resume-grid__title {
+  margin: 0;
+  font-size: 1.3rem;
 }
 
-.resume-item__body {
-  text-align: justify;
-  color: $primary-white;
-  font-size: 1.5rem;
-  text-shadow: 1px 1px 2px #000;
-  font-family: 'Quattrocento', serif;
+#year {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: bold;
+  color: $accent-teal;
+  text-shadow: 1px 1px 2px $primary-black;
 
 }
 
-.assets-graph {
-  text-shadow: 1px 1px 2px #000;
-  font-size: 2rem;
+#middle {
+  font-weight: bold;
+}
+
+#education {
+  padding-top: 75px;
 }

@@ -1,16 +1,24 @@
-
 <div class="main-container">
   <div class="primary">
     {{#link-to "index"}}
-        <h1 class="primary-title">DAVID CAWTON</h1>
+      <h1 class="primary-title">DAVID CAWTON</h1>
     {{/link-to}}
     <p class="sub-title">MEDIA + BROADCASTING + CREATIVE</p>
+    {{portfolio-nav}}
+    <p class="contact-title">
+      CONTACT
+      <a href="mailto:dcawton@gmail.com" target="_blank">
+        <i class="fa fa-envelope-o contact-i"></i>
+      </a>
+      <a target="_blank" href="https://linkedin.com/in/david-cawton">
+        <i class="fa fa-linkedin contact-i"></i>
 
+      </a>
+    </p>
   </div>
   {{outlet}}
 </div>
-{{top-nav}}
 <footer>
-  <h3 class="footer-title">BUILD BY <span class="teal-tung">TealTung</span></h3>
-  <p class="copyright">COPYRIGHT (C) 2017 DAVID CAWTON | ALL RIGHTS RESERVED</p>
+  <p class="copyright">
+    <i class="fa fa-copyright" aria-hidden="true"></i> 2017 BUILT BY: <span class="teal-tung">{DAVE}</span> | ALL RIGHTS RESERVED</p>
 </footer>

@@ -4,6 +4,7 @@
 
 html {
   box-sizing: border-box;
+  background: $primary-white;
 }
 
 *, *:before, *:after {
@@ -20,7 +21,7 @@ body {
 
 a {
   text-decoration: none;
-  color: $secondary-blue;
+  color: $primary-white;
 }
 
 a h2 h1{

@@ -1,21 +1,22 @@
 footer {
   display: flex;
-  min-height: 100px;
+  flex-direction: column;
   justify-content: space-around;
-  align-items: flex-end;
-  margin: 0;
+  align-items: center;
+  padding-top: 50px;
   min-height: 50px;
-  background: $primary-black;
-  color: $primary-white;
-  font-size: 1em;
+  background: $primary-white;
+  color: $primary-black;
+  font-size: 14px;
 
 }
 
 .copyright,
 .footer-title {
   text-align: center;
-  margin: 4rem 2rem;
-  color: $primary-white;
+  color: $primary-black;
+  margin: auto;
+  padding: 5px;
 }
 
 .teal-tung {

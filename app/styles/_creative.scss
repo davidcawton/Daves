@@ -1,6 +1,6 @@
 .creative-grid {
-  display: flex;
-max-width: 90%;
+display: flex;
+max-width: 95%;
 margin: auto;
 justify-content: center;
 text-align: center;
@@ -9,6 +9,8 @@ text-align: center;
 .reel-img {
   width: 300px;
   box-shadow: 0 8px 6px -6px black;
+  border: 1px solid #000;
+  opacity: 0.9;
 }
 
 .creative-grid__item {
@@ -17,16 +19,13 @@ text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
-  margin: 1rem;
-
+  padding: .5rem;
+  margin: .5rem;
   background: $primary-white;
-}
 
-.creative-grid__video {
-  width: 90%;
-  height: 350px;
-  border: 1px solid #fff;
+  &:hover .reel-img {
+    opacity: 1;
+  }
 }
 
 .creative-grid__title {
@@ -38,10 +37,4 @@ text-align: center;
   text-align: center;
   padding: 1.5rem 0;
   color: $primary-black;
-}
-
-.creative-grid__graph {
-  width: 80%;
-  margin: auto;
-
 }

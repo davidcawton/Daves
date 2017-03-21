@@ -1,85 +1,31 @@
 //PORTFOLIO TABS BASE STYLES
+/*WORK*/
+.work {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+  padding-top: 2em;
+  background: $primary-white;
+
+}
 
 .work-section__title {
-  font-size: 6rem;
+  font-size: 5rem;
   align-items: center;
-  margin: 2rem 0 1rem;
+  margin: auto;
   text-align: center;
   color: $primary-black;
-
-  i {
-    color: $accent-teal;
-  }
 }
 
 .work-graph {
   width: 300px;
-  font-size: 1.5em;
+  font-size: 19px;
   text-align: justify;
   color: $primary-black;
   font-family: 'Roboto Slab', serif;
 }
 
-
 .work-graph a {
-  color: $primary-white;
-}
-
-.work-grid {
-  display: flex;
-  max-width: 90%;
-  margin: auto;
-  justify-content: center;
-  padding: 1rem 0 .5rem;
-  text-align: center;
-}
-
-
-
-
-.work-grid__card {
-  flex: 1;
-  max-width: 500px;
-  height: 400px;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  list-style: none;
-  border: 1px $primary-white solid;
-  background: $primary-white;
-
-  &:hover {
-    background: $accent-teal;
-    border: 5px $accent-teal solid;
-    color: $primary-white;
-  }
-}
-
-.work-grid__card:hover p {
-  color: $primary-white;
-}
-
-.work-grid__card:hover a {
-  color: $primary-white;
-}
-
-.work-grid__card-img {
-  width: 100%;
-}
-
-.work-grid__card-title {
-  margin: 0;
-  color: $primary-white;
-  width: 100%;
-  padding: 0.5rem;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-  border-bottom: 3px $accent-teal solid;
-}
-
-.work-grid__card-body {
-  color: $primary-white;
-  text-align: justify;
-  width: 70%;
-  margin: auto;
-  margin-top: 1rem;
+  color: $accent-teal;
 }
