@@ -1,0 +1,116 @@
+
+@media only screen and (max-width: 479px) and (min-width: 200px) {
+
+  //TOP NAV//
+
+    .top-nav {
+      height: 70px;
+    }
+
+    .top-nav__item {
+      padding: 0 0.3rem;
+
+      li {
+        font-size: 1.1rem;
+      }
+    }
+
+    .top-nav__right {
+      display: none;
+    }
+
+//TITLE SECTION
+
+  .primary {
+    text-align: center;
+  }
+
+  .primary-title {
+    padding-bottom: 1rem;
+    font-size: 5rem;
+  }
+
+
+  //WORK SECTIONS
+
+    .page-titles {
+      font-size: 4rem;
+    }
+
+
+    .port-nav__li-icon {
+      font-size: 3rem;
+
+    }
+
+    .port-nav__li-title {
+      display: none;
+    }
+
+    .work-section__title {
+      font-size: 1.5rem;
+    }
+
+    .work-graph {
+      font-size: 1rem;
+    }
+
+    .work-grid {
+      flex-direction: column;
+      padding: 1rem 0 0;
+    }
+
+    .creative-grid__video {
+      height: 200px;
+    }
+
+    .creative-grid__title {
+      font-size: 2rem;
+    }
+
+    // RESUME
+
+    .resume-group__title {
+      text-align: center;
+    }
+
+    .resume-item__heading {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .resume-item__body {
+      font-size: 1.3rem;
+    }
+
+    .assets-graph {
+      text-align: left;
+      font-size: 1.2rem;
+    }
+
+    .assets-title {
+      margin-top: 0;
+    }
+
+
+
+    // CONTACT
+
+    .primary-contact__grid {
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+    }
+    .contact {
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .contact-text {
+      margin: 0;
+    }
+
+
+
+ }

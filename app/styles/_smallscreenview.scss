@@ -1,0 +1,50 @@
+//SMALL SCREENS
+
+@media only screen and (max-width: 1000px) and (min-width: 800px) {
+
+//TOP NAV//
+
+  .top-nav {
+    height: 70px;
+  }
+
+  .top-nav__item {
+    padding: 0.5rem;
+  }
+
+//WORK SECTIONS
+
+  .port-nav__li-icon {
+    font-size: 5rem;
+  }
+
+  .port-nav__li-title {
+    font-size: 1rem;
+  }
+
+  .work-section__title {
+    font-size: 3rem;
+  }
+
+  .creative-grid__video {
+    height: 400px;
+  }
+
+
+  // CONTACT
+
+  .primary-contact__grid {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .contact {
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+  }
+
+  .contact-text {
+    margin: 0;
+  }
+}

@@ -1,18 +1,24 @@
-<div class="top">
-  {{!-- <div class="top-nav">
-    <ul class="top-nav_ul">
-      <li class="top-nav_li">DNH</li>
-      <li class="top-nav_li">DNH</li>
-      <li class="top-nav_li">DNH</li>
-    </ul>
-  </div> --}}
-  <div class="top-cover">
-    <h2 class="top-h2" id="title">Daves</h2>
-    <h2 class="top-h2" id="sub-title">Not</h2>
-    <h2 class="top-h2" id="sub-sub-title">Here</h2>
+<div class="main-container">
+  <div class="primary">
+    {{#link-to "index"}}
+      <h1 class="primary-title">DAVID CAWTON</h1>
+    {{/link-to}}
+    <p class="sub-title">MEDIA + BROADCASTING + CREATIVE</p>
+    {{portfolio-nav}}
+    <p class="contact-title">
+      CONTACT
+      <a href="mailto:dcawton@gmail.com" target="_blank">
+        <i class="fa fa-envelope-o contact-i"></i>
+      </a>
+      <a target="_blank" href="https://linkedin.com/in/david-cawton">
+        <i class="fa fa-linkedin contact-i"></i>
+
+      </a>
+    </p>
   </div>
+  {{outlet}}
 </div>
-
-
-
-{{outlet}}
+<footer>
+  <p class="copyright">
+    <i class="fa fa-copyright" aria-hidden="true"></i> 2017 BUILT BY: <span class="teal-tung">{DAVE}</span> | ALL RIGHTS RESERVED</p>
+</footer>

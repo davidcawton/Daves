@@ -1,0 +1,99 @@
+// TABLET SCREENS
+@media only screen and (max-width: 799px) and (min-width: 480px) {
+  //TOP NAV//
+
+    .top-nav {
+      height: 70px;
+    }
+
+    .top-nav__item {
+      padding: 0 0.5rem;
+
+      li {
+        font-size: 1.2rem;
+      }
+    }
+
+    .top-nav__right {
+      display: none;
+    }
+
+//TITLE SECTION
+
+  .primary {
+    text-align: center;
+  }
+
+  .primary-title {
+    padding-bottom: 1rem;
+  }
+
+
+  //WORK SECTIONS
+
+    .port-nav__li-icon {
+      font-size: 3rem;
+
+    }
+
+    .port-nav__li-title {
+      display: none;
+    }
+
+    .work-section__title {
+      font-size: 2rem;
+    }
+
+    .work-grid {
+      flex-direction: column;
+      padding: 1rem 0 0;
+    }
+
+    .creative-grid__video {
+      height: 200px;
+    }
+
+    .creative-grid__title {
+      font-size: 2rem;
+    }
+
+    // RESUME
+
+    .resume-group__title {
+      text-align: center;
+    }
+
+    .resume-item__heading {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .assets-graph {
+      text-align: left;
+      font-size: 1.5rem;
+    }
+
+    .assets-title {
+      margin-top: 0;
+    }
+
+
+
+    // CONTACT
+
+    .primary-contact__grid {
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+    }
+    .contact {
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .contact-text {
+      margin: 0;
+    }
+
+}

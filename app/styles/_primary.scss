@@ -1,0 +1,46 @@
+.main-container {
+  background: $primary-white;
+}
+
+.primary {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: calc(95vh - 150px);
+  margin: auto;
+  margin-top: 2em;
+  padding:0;
+  background: url('../sky.jpg') no-repeat bottom fixed;
+  background-size: cover;
+  border: 5px solid $primary-white;
+}
+
+.primary-title {
+  width: 800px;
+  height: 200px;
+  margin: auto;
+  font-family:'Unica One', sans-serif;
+  font-size: 8rem;
+  color: $primary-black;
+  line-height: 200px;
+  text-align: center;
+  text-shadow: 1px 1px 2px $accent-teal;
+  background: rgba($primary-white, 0.5);
+  border: 5px solid $primary-black;
+  border-bottom: 5px $primary-black solid;
+}
+
+.sub-title {
+  width: 800px;
+  font-family: 'VT323', monospace;
+  color: $primary-black;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  background: rgba($primary-white, 0.5);
+  padding: 1rem 2rem;
+  border: 5px solid $primary-black;
+}

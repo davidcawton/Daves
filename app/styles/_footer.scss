@@ -1,0 +1,24 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+  min-height: 50px;
+  background: $primary-white;
+  color: $primary-black;
+  font-size: 14px;
+
+}
+
+.copyright,
+.footer-title {
+  text-align: center;
+  color: $primary-black;
+  margin: auto;
+  padding: 5px;
+}
+
+.teal-tung {
+  color: $accent-teal;
+}

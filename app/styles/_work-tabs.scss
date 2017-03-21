@@ -1,0 +1,31 @@
+//PORTFOLIO TABS BASE STYLES
+/*WORK*/
+.work {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+  padding-top: 2em;
+  background: $primary-white;
+
+}
+
+.work-section__title {
+  font-size: 5rem;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  color: $primary-black;
+}
+
+.work-graph {
+  width: 300px;
+  font-size: 19px;
+  text-align: justify;
+  color: $primary-black;
+  font-family: 'Roboto Slab', serif;
+}
+
+.work-graph a {
+  color: $accent-teal;
+}

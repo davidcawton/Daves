@@ -1,0 +1,40 @@
+.creative-grid {
+display: flex;
+max-width: 95%;
+margin: auto;
+justify-content: center;
+text-align: center;
+}
+
+.reel-img {
+  width: 300px;
+  box-shadow: 0 8px 6px -6px black;
+  border: 1px solid #000;
+  opacity: 0.9;
+}
+
+.creative-grid__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+  margin: .5rem;
+  background: $primary-white;
+
+  &:hover .reel-img {
+    opacity: 1;
+  }
+}
+
+.creative-grid__title {
+  position: absolute;
+  font-size: 3rem;
+  margin: 0;
+  width: 300px;
+  background: rgba($primary-white, .9);
+  text-align: center;
+  padding: 1.5rem 0;
+  color: $primary-black;
+}
