@@ -1,0 +1,51 @@
+
+//PORT NAV//
+
+.port-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  background: rgba($primary-white, 0.8);
+  width: 800px;
+  height: 200px;
+  border: 5px solid $primary-black;
+
+}
+
+.port-nav__item {
+  list-style: none;
+  padding: 0;
+  text-decoration: none;
+  color: $primary-black;
+  margin: auto;
+}
+
+
+.port-nav__item:hover .port-nav__li-title {
+  opacity: 1;
+
+}
+
+.port-nav__item:hover .port-nav__li-icon {
+  color: $accent-teal;
+}
+
+.port-nav__li-icon {
+  font-size: 6em;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 2px $primary-white;
+}
+
+.port-nav__li-title {
+  font-size: 1.5rem;
+  opacity: 1;
+  color: $primary-black;
+  font-family: 'VT323', monospace;
+
+
+  &:active {
+    color: $primary-black;
+  }
+}

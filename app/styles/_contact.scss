@@ -1,5 +1,4 @@
-// CONTACT //
-
+// CONTACT  LIST//
 .contact-title {
   position: absolute;
   bottom: 3%;
@@ -19,31 +18,4 @@
     color: $primary-white;
     text-shadow: 1px 1px 1px  $brand-gold;
   }
-}
-
-//
-
-.port-nav-list {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  margin: auto;
-  border: none;
-  list-style: none;
-  padding: 0;
-  text-decoration: none;
-  color: $primary-black;
-
-  i {
-    color: $primary-black;
-
-    &:hover {
-      color: $accent-teal;
-    }
-  }
-}
-
-.port-nav-no-border {
-  border: none;
-  padding-top: 50px;
 }

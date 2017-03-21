@@ -1,0 +1,46 @@
+.resume-grid {
+  display: flex;
+  max-width: 90%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.resume-grid__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 8px 6px -6px black;
+  border: 1px solid rgba(#000, .7);
+  padding: .5rem;
+  margin: .5rem;
+}
+
+.resume-i {
+  color: $primary-black;
+  text-shadow: 1px 1px 2px $accent-teal;
+}
+
+.resume-grid__title {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+#year {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: bold;
+  color: $accent-teal;
+  text-shadow: 1px 1px 2px $primary-black;
+
+}
+
+#middle {
+  font-weight: bold;
+}
+
+#education {
+  padding-top: 75px;
+}
